@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>settings</title>
+		<style>
+			body{
+				font-family: 'Trebuchet MS', Helvetica, sans-serif;
+			}
+			aside {
+				background-color: gray;
+				float: right;
+				margin: 15px;
+				padding: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Settings<img src="D:\UserData\140563315\Downloads\221895-200.png" style="float:left;width:50px;height:50px;"></h1>
+			
+			<div>
+				<p class="header"> Select a theme</p>
+				<input type="radio" id="light" name="theme" value="light">
+				<label for="light">Light</label><br>
+				<input type="radio" id="dark" name="theme" value="dark">
+				<label for="dark">Dark</label><br>
+				<input type="radio" id="extradark" name="theme" value="extradark">
+				<label for="extradark">Extra Dark</label>
+			</div>
+			<label for="favcol">pick a color (it wont do anything):</label>
+			<input type="color" id="favcol" name="favcol"><br><br>
+			<input type="submit" onclick="aleert();">
+			<input type="reset" onclick="alert('The form was reset successfully')">
+			<button type="button" onclick="document.location.href="file://cec-crm-lfs01/140563315$/Documents/index.html";">Back</button>
+		<script>
+			function aleert(){
+				alert(true);
+				if document.getElementById("light").value==true:
+					var col="ghost";
+				else if document.getElementById("dark").value==true:
+					var col="gray";
+				else if document.getElementById("extradark").value==true:
+					var col="black";
+				alert(col);
+				localStorage.setItem("col", col);
+				document.location.href="file://cec-crm-lfs01/140563315$/Documents/index.html";
+			};
+		</script>
+	</body>
+</html>

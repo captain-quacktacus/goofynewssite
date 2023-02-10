@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Website</title>
+		<style>
+			body{
+				font-family: 'Trebuchet MS', Helvetica, sans-serif;
+				background-color: #e0ede0;
+			}
+			ul {
+				position: fixed;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+				width:100%;
+				top:0;
+				left:0;
+				font-size: 10px;
+			}
+			li {
+				float: left;
+			}
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 20px 32px;
+				text-decoration: none;
+				font-size: 20px;
+			}
+			li a:hover {
+				background-color: #111;
+			}
+			#main{
+				text-align: center;
+			}
+			.article{
+				width: 80%;
+				padding: 10%;
+				height: 500px;
+				overflow: hidden;
+			}
+			.article img{
+				height: 500px;
+				overflow: hidden;
+			}
+		</style>
+		<script>
+			var col = localStorage.getItem('col');
+			document.body.style.backgroundColor = col;
+		</script>
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li><a href="\\cec-crm-lfs01\140563315$\Documents\index.html">Home</a></li>
+				<li style="float:right;"><a href="\\cec-crm-lfs01\140563315$\Documents\set_colour.html">Settings</a></li>
+			</ul>
+		</header>
+		<br><br>
+		<div id="main">
+			<h1>Home</h1>
+			<div class="article">
+				<img src="D:\UserData\140563315\Downloads\download.jfif" width="100%">
+				<p>Danny Devito, age 78, has not died t...</p>
+			</div>
+			<div class="article">
+				<img src="D:\UserData\140563315\Downloads\download.png" width="100%">
+				<p>Red sus? An in depth analysis of the...</p>
+			</div>
+		</div>
+	</body>
+</html>
