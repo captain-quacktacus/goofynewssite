@@ -5,7 +5,7 @@
 		<style>
 			body{
 				font-family: 'Trebuchet MS', Helvetica, sans-serif;
-				background-color: white;
+				background-color: #e0ede0;
 			}
 			ul {
 				position: fixed;
@@ -38,7 +38,6 @@
 			}
 			.article{
 				width: 80%;
-				width: 50%;
 				padding: 10%;
 				height: 500px;
 				overflow: hidden;
@@ -46,9 +45,7 @@
 			}
 			.article img{
 				height: 500px;
-				width: 80%;
-				object-fit: cover;
-				object-position: 50% 0%;
+				overflow: hidden;
 			}
 		</style>
 		<script>
@@ -66,10 +63,10 @@
 		<br><br>
 		<div id="main">
 			<h1>Home</h1>
-			<div class="article" onclick="document.location.href='dannydevito.html'">
+			<a href="dannydevito.html"><div class="article">
 				<img src="dannydevito.jfif" width="100%">
 				<p>Danny Devito, age 78, has not died t...</p>
-			</div>
+			</div></a>
 			<div class="article">
 				<img src="amogusred.png" width="100%">
 				<p>Red sus? An in depth analysis of the...</p>
