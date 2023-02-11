@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Danny</title>
+    <style>
+			body{
+				font-family: 'Trebuchet MS', Helvetica, sans-serif;
+				background-color: #e0ede0;
+			}
+			ul {
+				position: fixed;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+				width:100%;
+				top:0;
+				left:0;
+				font-size: 10px;
+			}
+			li {
+				float: left;
+			}
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 20px 32px;
+				text-decoration: none;
+				font-size: 20px;
+			}
+			li a:hover {
+				background-color: #111;
+			}
+    </style>
+  </head>
+  <body>
+    <header>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li style="float:right;"><a href="set_colour.html">Settings</a></li>
+			</ul>
+		</header>
+  </body>
+</html>
